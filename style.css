@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+.card {
+    width: 300px;
+    height: 70px;
+    margin: 15px;
+    background-color: #fcf80e;
+    border: 2px solid #2a1cf8;
+    border-radius: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.nombre_card {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.nombre_card::first-letter{
+    text-transform: uppercase;
+}
+
+.url{
+    padding-bottom: 10px;
+}
